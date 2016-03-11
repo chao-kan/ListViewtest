@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.listviewtest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.test.listviewtest.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="SunnyActivity"></activity>
+        <activity android:name="CloudyActivity"></activity>
+        <activity android:name="GloomyActivity"></activity>
+        <activity android:name="DrizzleActivity"></activity>
+        <activity android:name="StormyActivity"></activity>
+        <activity android:name="SleetyActivity"></activity>
+        <activity android:name="ShowerActivity"></activity>
+        <activity android:name="PourActivity"></activity>
+        
+    </application>
+
+</manifest>
